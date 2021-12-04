@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Sidebar from '../components/Sidebar';
 
 export default function Home() {
     return (
@@ -7,10 +8,9 @@ export default function Home() {
                 <title>spotify clone</title>
                 <link rel='icon' href='/favicon.ico' />
             </Head>
-            <h1>This is spotify</h1>
             <main>
-              {/* sidebar */}
-              {/* center */}
+                <Sidebar />
+                {/* center */}
             </main>
         </div>
     );
